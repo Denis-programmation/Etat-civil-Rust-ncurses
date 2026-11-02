@@ -1,0 +1,11 @@
+[package]
+name = "etat_civil"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ncurses-pure = { git = "https://github.com/runlevel5/ncurses-pure-rs.git", features = ["full"] }
+mysql = "*"
+
+[features]
+menu = [ ]
